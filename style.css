@@ -1,0 +1,67 @@
+body{
+    background-color: #2c3e50;
+}
+
+#timestyle{
+    color: rgb(249, 222, 222);
+    font-size: 30px;
+    display: flex;
+    justify-content: end;
+}
+
+#parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+#container{
+    color: #d7dfe4;
+}
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+
+}
+.text{
+    font-size: 40px;
+    font-weight: bold;
+}
+#btn-container{
+    text-align: center;
+    margin-top: 40px;
+
+}
+.btn{
+    padding: 7px 25px;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+
+}
+#Start{
+    background-color: green;
+}
+#Stop{
+    background-color: #3498db;
+}
+#Reset{
+    background-color: red;
+}
+.changeColor{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    width: 250px;
+}
+
+.btn1{
+    border: 10px solid gray;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
